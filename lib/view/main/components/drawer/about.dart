@@ -12,7 +12,7 @@ class About extends StatelessWidget {
         child: Column(
           children: [
             const Spacer(flex: 2,),
-            const DrawerImage(),
+            //const DrawerImage(),
             const Spacer(),
             Text('Hamad Anwar',style: Theme.of(context).textTheme.titleSmall,),
             const SizedBox(height: defaultPadding/4,),
