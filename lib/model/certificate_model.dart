@@ -16,10 +16,10 @@ class CertificateModel {
 //here
 List<CertificateModel> certificateList = [
   CertificateModel(
-    name: 'Getting started with Flutter Development',
-    organization: 'Coursera',
-    date: 'AUG 2023',
-    skills: 'Flutter . Dart',
+    name: 'Maharat min Google Fundamentals of Digital Marketing',
+    organization: 'Google',
+    date: 'AUG 2021',
+    skills: 'Digital Marketing',
     credential:  'https://www.coursera.org/account/accomplishments/certificate/HQ4LFHSF4LKZ',
   ),
   CertificateModel(
