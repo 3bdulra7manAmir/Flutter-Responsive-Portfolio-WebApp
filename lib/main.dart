@@ -12,19 +12,28 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        scaffoldBackgroundColor: bgColor,
-        useMaterial3: true,
-        textTheme: GoogleFonts.openSansTextTheme(Theme.of(context).textTheme)
-            .apply(bodyColor: Colors.white,)
-            .copyWith(
-          bodyText1: const TextStyle(color: bodyTextColor),
-          bodyText2: const TextStyle(color: bodyTextColor),
+        theme: ThemeData(
+          useMaterial3: true, // Enable Material 3 features
+          colorScheme: ColorScheme.fromSeed(
+            seedColor: Colors.deepPurple,
+          ), // Dynamic color scheme based on a seed color
+          scaffoldBackgroundColor:
+              bgColor, // Set the background color of scaffolds
+          textTheme: GoogleFonts.openSansTextTheme()
+              .apply(
+                bodyColor: Colors.white, // Apply a default white color to text
+              )
+              .copyWith(
+                bodyLarge: const TextStyle(
+                  color: bodyTextColor, // Customize large body text
+                ),
+                bodyMedium: const TextStyle(
+                  color: bodyTextColor, // Customize medium body text
+                ),
+              ),
         ),
-      ),
 
-      home: SplashView()
+      home: const SplashView()
     );
   }
 }
