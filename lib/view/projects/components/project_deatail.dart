@@ -15,7 +15,7 @@ class ProjectDetail extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Align(alignment: Alignment.topCenter,child: Text(
-          projectList[index].name,
+          projectList[index].name, //here
           style: Theme.of(context)
               .textTheme
               .headlineSmall!

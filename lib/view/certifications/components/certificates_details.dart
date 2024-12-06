@@ -46,6 +46,7 @@ class CertificateStack extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
+                    //here
                     Text(certificateList[index].organization,style: const TextStyle(color: Colors.amber),),
                     Text(certificateList[index].date,style: const TextStyle(color: Colors.grey,fontSize: 12),),
                   ],

@@ -6,6 +6,7 @@ class Project {
   Project(this.name, this.description, this.image, this.link);
 }
 
+//here
 List<Project> projectList = [
   Project(
     'Coffee Application',
