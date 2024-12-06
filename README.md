@@ -63,22 +63,6 @@ Once the website is up and running, you'll find a range of sections to explore:
 - **Certifications:** Explore my certifications, gaining insight into my professional development journey.
 - **Contact:** Reach out to me through provided contact details or social media links.
 
-
-## Contributions
-
-I welcome contributions and suggestions from the community! If you come across any issues, have ideas for improvements, or wish to contribute in any way, feel free to open an issue or submit a pull request. Let's collaborate to make this portfolio even better!
-
-## Contact Me
-
-Your feedback and thoughts are highly valued. Feel free to connect with me through:
-
-- **Email:** rh676838@gmail.com
-- **LinkedIn:** [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar)
-
-## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-### Designed and developed with ❤️ by [Hamad Anwar](https://www.linkedin.com/in/hamad-anwar/).
